@@ -12,7 +12,7 @@ class ConexionPdo
 
         try {
          //Cadena de Conexion a la base de datos
-            @$conn = new PDO('mysql:host=db4free.net;port=3306; dbname=db_inventario', 'prueba12345', '123/-Dar', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+            @$conn = new PDO('mysql:host=remotemysql.com;port=3306; dbname=RjFcr43f9U', 'RjFcr43f9U', 'Sgiw3cRc1U', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
             //echo 'Conexion satisfactoria.<br>';
             
 
