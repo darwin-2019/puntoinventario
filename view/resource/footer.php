@@ -25,7 +25,16 @@ Inicio del pie de la página web
     </div>
 </div>
 <!--Fin del Footer -->
+	<script src="./librerias/jquery.min.js"></script>
+	<script src="./librerias/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./datatables/jquery.dataTables.min.js"></script>
+		<!-- mascaras -->
+		<script type="text/javascript" src="./js/fileinput.js"></script>
+	<script type="text/javascript" src="./js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.inputmask.bundle.min.js"></script>
 
+		<!-- Procesos del producto en javascript (Ajax y jquery) -->
+	<script  src="./js/producto.js"></script>
 </body>
 
 </html>
