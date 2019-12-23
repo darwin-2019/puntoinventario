@@ -17,16 +17,6 @@
 		<!-- icnoos font-awesome -->
 	<link href="./iconos_fa/css/font-awesome.min.css" rel="stylesheet">
 	<link href="./datatables/jquery.dataTables.min.css" rel="stylesheet">
-	<script src="./librerias/jquery.min.js"></script>
-	<script src="./librerias/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./datatables/jquery.dataTables.min.js"></script>
-		<!-- mascaras -->
-		<script type="text/javascript" src="./js/fileinput.js"></script>
-	<script type="text/javascript" src="./js/jquery.maskedinput.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.inputmask.bundle.min.js"></script>
-
-		<!-- Procesos del producto en javascript (Ajax y jquery) -->
-	<script  src="./js/producto.js"></script>
 
 </head>
 
