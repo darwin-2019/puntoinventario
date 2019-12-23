@@ -1,6 +1,6 @@
 <?php
 session_start();
-header("Content-Type: text/html;charset=utf-8");
+//header("Content-Type: text/html;charset=utf-8");
 class ConexionPdo
 {
     private $conn = null;
@@ -12,7 +12,7 @@ class ConexionPdo
 
         try {
          //Cadena de Conexion a la base de datos
-            @$conn = new PDO('mysql:host=db4free.net;port=33067; dbname=db_inventario', 'prueba12345', '2de6f80e', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+            @$conn = new PDO('mysql:host=db4free.net;port=3306; dbname=db_inventario', 'prueba12345', '123/-Dar', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
             //echo 'Conexion satisfactoria.<br>';
             
 
