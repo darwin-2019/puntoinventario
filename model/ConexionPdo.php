@@ -11,12 +11,13 @@ class ConexionPdo
      
 
         try {
-         
-            @$conn = new PDO('mysql:host=localhost;port=3307; dbname=db_prueba', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+         //Cadena de Conexion a la base de datos
+            @$conn = new PDO('mysql:host=localhost;port=3307; dbname=db_inventario', 'prueba12345', '2de6f80e', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
             //echo 'Conexion satisfactoria.<br>';
             
 
         } catch (PDOException $e) {
+            
             echo '<script>';
             echo 'var pBar = document.getElementById("p");
      var updateProgress = function(value)
@@ -35,7 +36,6 @@ class ConexionPdo
         <li>Ha perdido conexión con el servidor. </li>
         <li>Base de datos no encontrada. </li>
         <li>Conexión expirada. </li>
-        <li>Clave o usuario incorrectos. </li>
         <li>La base de datos fue removida. </li>
     </ol>";
 
